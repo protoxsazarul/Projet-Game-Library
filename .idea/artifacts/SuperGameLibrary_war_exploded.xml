@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SuperGameLibrary:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SuperGameLibrary/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SuperGameLibrary" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 5.4.3-5.4.3" />
+          <element id="library" level="project" name="gson-2.8.5" />
+          <element id="library" level="project" name="javax.servlet-api-3.1.0" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.16" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="SuperGameLibrary/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

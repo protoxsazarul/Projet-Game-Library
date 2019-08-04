@@ -1,0 +1,48 @@
+html,body,#wrapper {
+    margin:0;
+    padding:0;
+    background: #1b2838;
+}
+#wrapper {
+    position:relative;
+}
+.head{
+background-color: #171a21;
+
+}
+.head > h2 {
+   color: white;
+}
+#mainSection{
+    height: 100%;
+}
+.mainBody{
+    padding-top:2%;
+    height: 100%;
+}
+.contentDiv {
+    background: #101822;
+    color: white;
+    padding: 1%;
+    height: 80%;
+    overflow-y: auto;
+}
+.footer{
+    position:fixed;
+    bottom: 0px;
+    color: rgb(184, 209, 252);
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+}
+#gameTab{
+    color: white;
+}
+.btn{
+    margin: 1%;
+}
+#RegInp >input{
+    margin: 1% ;
+}
+@media screen and (min-width: 200px) and (max-width: 375px){
+
+}
