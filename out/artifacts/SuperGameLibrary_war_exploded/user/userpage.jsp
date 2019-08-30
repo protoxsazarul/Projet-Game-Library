@@ -28,7 +28,9 @@
 <div id="wrapper">
     <header class="head d-flex p-4">
         <h2 class="col-4 offset-md-5">GAME LIBRARY MANAGER HELPER </h2>
-        <a href="./logout" class="col-2 offset-md-1">Déconnexion</a>
+        <div id="UserBtn"  class="col-2 offset-md-1">
+            <a href="./logout"class="btn btn-dark">Déconnexion</a>
+        </div>
     </header>
         <section id="mainSection">
             <div class="container-fluid mainBody h-100">
@@ -37,7 +39,7 @@
                     <p> Pseudo :<%= user.getUserName()%></p>
                     <p> Email :<%= user.getEmail()%></p>
                     <p> SteamID :<%= user.getSteamid()%></p>
-                    <a href="./usergames"> tes jeux</a>
+                    <a href="./usergames" class="btn btn-dark"> tes jeux</a>
                 </div>
 
             </div>

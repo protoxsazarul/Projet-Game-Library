@@ -1,6 +1,5 @@
 package Controllers.api;
 import Controllers.common.GetUserGamesUtils;
-import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -15,25 +14,17 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.stream.Collectors;
 
-@WebServlet("/getUsersGame")
-public class GetUserGamesAPI extends HttpServlet {
+public class UpdateInfo extends HttpServlet {
     private String respPost;
-    private String userid;
-    private String steamid;
-    private Gson gson = new Gson();
-    private Session sessionhib = HibernateUtils.getSession();
-
 
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-
-
     }
 
     public void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-
+        String steamid;
         if ("POST".equalsIgnoreCase(req.getMethod())) {
             respPost = req.getReader().lines().collect(Collectors.joining(System.lineSeparator()));
             System.out.println("serving request " + req);

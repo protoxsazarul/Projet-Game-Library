@@ -8,23 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc532178-49f5-4433-bf28-acfcc26eeadd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded/Modal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded/Modal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded/WEB-INF/classes/Controllers/servlet/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded/WEB-INF/classes/Controllers/servlet/HomeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded/WEB-INF/classes/Controllers/servlet/registerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded/WEB-INF/classes/Controllers/servlet/registerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded/user/userpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SuperGameLibrary_war_exploded/user/userpage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SuperGameLibrary/Controllers/servlet/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SuperGameLibrary/Controllers/servlet/HomeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SuperGameLibrary/Controllers/servlet/registerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SuperGameLibrary/Controllers/servlet/registerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/common/CommonUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/common/CommonUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/servlet/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/servlet/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/servlet/registerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/servlet/registerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Modal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Modal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/userpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/userpage.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +39,18 @@
         <option value="hibernate-configuration-5.2" />
         <option value="hibernate-main-5.2" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Jsp File" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Quentin &lt;quentincnudde6@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -86,21 +75,21 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2045977" />
-    <property name="settings.editor.selected.configurable" value="sshConsole" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\simplon\projet chef d'oeuvre\SuperGameLibrary\web\Page" />
-      <recent name="D:\simplon\projet chef d'oeuvre\SuperGameLibrary\web" />
-      <recent name="D:\simplon\projet chef d'oeuvre\SuperGameLibrary\web\WEB-INF\css" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\simplon\projet chef d'oeuvre\SuperGameLibrary\web\WEB-INF" />
+      <recent name="D:\simplon\projet chef d'oeuvre\SuperGameLibrary\src" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="model" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\simplon\projet chef d'oeuvre\SuperGameLibrary\web\WEB-INF" />
-      <recent name="D:\simplon\projet chef d'oeuvre\SuperGameLibrary\src" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\simplon\projet chef d'oeuvre\SuperGameLibrary\web\Page" />
+      <recent name="D:\simplon\projet chef d'oeuvre\SuperGameLibrary\web" />
+      <recent name="D:\simplon\projet chef d'oeuvre\SuperGameLibrary\web\WEB-INF\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,7 +226,31 @@
       <workItem from="1564731588729" duration="512000" />
       <workItem from="1564732156234" duration="7192000" />
       <workItem from="1564740508795" duration="4348000" />
+      <workItem from="1564846436868" duration="4026000" />
+      <workItem from="1564912980576" duration="4376000" />
+      <workItem from="1564991807874" duration="3694000" />
+      <workItem from="1564995759436" duration="1391000" />
+      <workItem from="1564998374484" duration="3592000" />
+      <workItem from="1565077431308" duration="671000" />
+      <workItem from="1565081191945" duration="737000" />
+      <workItem from="1565161399098" duration="223000" />
+      <workItem from="1565161890124" duration="2209000" />
+      <workItem from="1566201234110" duration="227000" />
+      <workItem from="1566467736048" duration="3612000" />
+      <workItem from="1566571326762" duration="1266000" />
+      <workItem from="1566805874476" duration="603000" />
+      <workItem from="1566899561481" duration="740000" />
+      <workItem from="1566914513580" duration="741000" />
+      <workItem from="1567151856955" duration="757000" />
     </task>
+    <task id="LOCAL-00001" summary="Transphere de git lab vers github&#10;d'un version stable">
+      <created>1567152064394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567152064394</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,5 +268,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Transphere de git lab vers github&#10;d'un version stable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transphere de git lab vers github&#10;d'un version stable" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/user/usergames.jsp</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

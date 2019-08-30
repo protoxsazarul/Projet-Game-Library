@@ -16,24 +16,12 @@ public class HomeServlet extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest req , HttpServletResponse resp)
             throws ServletException, IOException{
-        System.out.println("serving request " + req);
+        resp.setContentType("text/html;charset=UTF-8");
         req.setCharacterEncoding("UTF-8");
-        String[] segments = req.getRequestURL().toString().split("/");
-        String lastSegment = segments[segments.length - 1];
-        System.out.println("Last Segement = "+lastSegment);
-
-
-//        resp.setContentType("text/html");
         req.getRequestDispatcher("index.jsp").forward(req, resp);
 
-//       resp.getWriter().println(fileContent("/index.jsp"));
-//        resp.getWriter().println(fileContent("web/WEB-INF/index.jsp"));
-//        resp.getWriter().println(fileContent("WEB-INF/index.jsp"));
-       // resp.getWriter().println(fileContent("web/index.jsp"));
-
-
-
-    } public void doPost(HttpServletRequest req, HttpServletResponse resp)
+    }
+    public void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         resp.setContentType("text/html;charset=UTF-8");
         req.setCharacterEncoding("UTF-8");

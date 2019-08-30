@@ -8,7 +8,9 @@ var app = new Vue({
         gameInfo:{}
     },
     methods : {
-
+        display: function (target){
+          $("#"+target).show();
+        },
 
         addGameToAUser:function(){
             var steamID =$("#steamidAG").val()
@@ -29,7 +31,9 @@ var app = new Vue({
                     if (response.data !=null) {
                         console.log("tu est redirigé");
                         app.loggedUser = response.data;
-                        window.location.href = './user';
+                        setTimeout(100,function () {
+                            window.location.href = './user';
+                        });
                     } else if (response.status == 204) {
                         console.log("err bad login")
                     }
@@ -62,10 +66,12 @@ var app = new Vue({
 
             }
         },
-        addSteamGame: function(userid,steamid){
+        addSteamGame: function(){
+            var steamid = $("#addGBtn").prop("value")
+            console.log(steamid)
+
             axios.post("./getUsersGame",
                 {
-                user: userid,
                     steamid: steamid
                 }).then(function (response) {
                 console.log(response);

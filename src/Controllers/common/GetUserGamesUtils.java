@@ -96,8 +96,10 @@ public static void run(String steamid64) throws Exception {
             JsonArray games = gameList.getAsJsonArray();
             int c = 0;
 
+
             for (int i = 0; i <games.size() ; i++) {
                 if( c == 75) {
+                    System.out.println("Dans le Sleep");
                     TimeUnit.SECONDS.sleep(60);
                     c=0;
                 }
@@ -108,7 +110,7 @@ public static void run(String steamid64) throws Exception {
                 String strAppid = appid.toString();
                 Integer playtime = temp.get("playtime_forever").getAsInt();
                 String name = temp.get("name").getAsString();
-                System.out.println("avant le if");
+                System.out.println("avant le if de game is in ");
 
                 if(!gameisin(appid) && !iconCheck.isEmpty())
                 {
@@ -128,8 +130,10 @@ public static void run(String steamid64) throws Exception {
                         newGame.setDeveloppeur(developers);
                         newGame.setDescription(shortDes);
                         newGame.save();
-                        c++;
                         gameLink(appid,userId);
+
+                        c++;
+
                     }
                 } else if (gameisin(appid)) {
 

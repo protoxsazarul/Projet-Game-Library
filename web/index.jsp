@@ -59,8 +59,8 @@
         </br>
         <p>Vous pouvez importer votre bilbliothèque steam ou ajouté les jeux que vous voulez</p>
 
-        <h3>Pourquoi ce site j'ai fais ce site</h3>
-        <p> j'ai fais ce site comme projet chef d'oeuvre et car j'ai une bonne bibliothèque de jeux ,mais je n'avais rien pour mieux la gère que steam donc j'ai dévélopper cet outils  </p>
+        <h3>Pourquoi j'ai fais ce site ?</h3>
+        <p> j'ai fais ce site comme projet chef d'oeuvre et aussi car j'ai une bonne bibliothèque de jeux ,mais je n'avais rien pour mieux la gère que steam donc j'ai dévélopper cet outils  </p>
         <%
           if(isLogged == true){
         %>

@@ -41,7 +41,10 @@ background-color: #171a21;
     margin: 1%;
 }
 #RegInp >input{
-    marginq: 1% !important;
+    margin: 1% ;
+}
+#formSteamidChange{
+    display: none;
 }
 @media screen and (min-width: 200px) and (max-width: 375px){
 

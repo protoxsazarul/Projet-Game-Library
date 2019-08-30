@@ -7,7 +7,8 @@ import java.util.ArrayList;
 
 public class GameUpdateUtils {
     public static void main(String tab, ArrayList<String> modifList) throws Exception{
-        Game modGame = (Game) HibernateUtils.getSession().load(Game.class, 3);
+        int idGame=4;
+        Game modGame = (Game) HibernateUtils.getSession().load(Game.class, idGame);
         System.out.println(modGame);
         if (tab.equals("game")){
             alterGame(modifList);

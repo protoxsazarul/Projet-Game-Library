@@ -30,14 +30,14 @@
     <header class="head d-flex p-4">
         <h2 class="col-4 offset-lg-3 offset-md-5">GAME LIBRARY MANAGER HELPER </h2>
         <div id="UserBtn"  class="col-2 offset-md-1">
-            <a href="./logout">Déconnexion</a>
-            <a href="./user" >Votre profil</a>
+            <a href="./logout"class="btn btn-dark">Déconnexion</a>
+            <a href="./user" class="btn btn-dark">Votre profil</a>
         </div>
     </header>
     <section id="mainSection">
         <div id="<%=user.getId()%>" class="container-fluid mainBody h-100 user_info">
            <div>
-               <a href="./userAddGame">Add a game</a>
+               <a href="./userAddGame" class="btn btn-dark">Add a game</a>
            </div>
             <div class="contentDiv bg-grey">
                 <table id="gameTab">
@@ -61,6 +61,5 @@
     </section>
 </div>
 <script src="scripts/maVue.js"></script>
-
 </body>
 </html>
